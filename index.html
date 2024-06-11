@@ -36,10 +36,7 @@
             text-align: center;
             padding: 10px 0;
             margin-top: 20px;
-            /* Remove fixed position to allow scrolling */
-            /* position: fixed; */
             width: 100%;
-            bottom: 0;
         }
         h1, h2 {
             margin: 0;
@@ -51,7 +48,7 @@
         .contact-form {
             display: flex;
             flex-direction: column;
-            padding-bottom: 40px; /* Add padding to the bottom */
+            padding-bottom: 40px;
         }
         .contact-form label {
             margin: 5px 0 2px;
@@ -72,6 +69,26 @@
         }
         .contact-form button:hover {
             background-color: #00bfff;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            header, footer {
+                padding: 15px;
+            }
+        }
+        @media (max-width: 480px) {
+            header, footer {
+                padding: 10px;
+            }
+            .contact-form input, .contact-form textarea {
+                font-size: 14px;
+                padding: 8px;
+            }
+            .contact-form button {
+                padding: 8px;
+            }
         }
     </style>
 </head>
