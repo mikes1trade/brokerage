@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oil Trading Brokers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #87ceeb;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #about {
+            padding: 20px 0;
+        }
+        #contact {
+            background: #e0f7fa;
+            padding: 20px 0;
+        }
+        footer {
+            background-color: #87ceeb;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h1, h2 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin: 5px 0 2px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #87ceeb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #00bfff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Oil Trading Brokers</h1>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>We are a team partnering to use our extensive contacts in oil trading to provide our clients with vessel fixation possibilities. Acting as brokers, we maintain strong relationships with shipping companies to facilitate efficient and effective vessel fixations. Our expertise spans across fixing vessels and physical oil trading, having successfully loaded vessels of various sizes.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Oil Trading Brokers. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
